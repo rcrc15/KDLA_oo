@@ -73,8 +73,6 @@ class observe(nn.Module):
             nn.ELU(),
             nn.Linear(100, 100),
             nn.ELU(),
-            nn.Linear(100, 100),
-            nn.ELU(),
             nn.Linear(100, trunc),
             nn.ELU()
         )
